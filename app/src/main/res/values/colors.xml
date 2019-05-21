@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#FF0000</color>
+    <color name="colorPrimaryDark">#8B0000</color>
+    <color name="colorAccent">#FFFFFF</color>
+    <color name="colorsplash">#FF0000</color>
+
+    // TODO: 22/02/18
+    <color name="colorNavigationIcon">#dae9f6</color>
+    <color name="colorNavigationText">#ffffff</color>
+
+    <!-- Color for Button Style -->
+    <color name="gradient_start_color">#4C84ff</color>
+    <color name="gradient_end_color">#18A3FE</color>
+    <color name="gradient_end">#D54D4D</color>
+
+    <!-- Color for Tab and Screen Button -->
+    <color name="tab_indikator_gray">#C0C0C0</color>
+    <color name="intro_title_color">#000000</color>
+    <color name="intro_description_color">#656565</color>
+
+    <!-- Color for Background -->
+    <color name="background">#DBA2A2</color>
+
+</resources>

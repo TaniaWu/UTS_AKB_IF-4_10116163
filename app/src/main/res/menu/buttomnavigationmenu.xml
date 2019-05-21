@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/profil_menu"
+        android:title="@string/profil"
+        android:icon="@drawable/ic_profil"/>
+
+    <item
+        android:id="@+id/kontak_menu"
+        android:title="@string/kontak"
+        android:icon="@drawable/ic_kontak"/>
+
+    <item
+        android:id="@+id/daftarteman_menu"
+        android:title="@string/daftarteman"
+        android:icon="@drawable/ic_daftarteman"/>
+
+</menu>

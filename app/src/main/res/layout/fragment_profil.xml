@@ -86,7 +86,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
+                android:layout_marginTop="30dp"
                 android:text="ABOUT ME"
                 android:textColor="#000"
                 android:textSize="20dp"
@@ -95,19 +95,20 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="30dp"
-                android:text="BTS
-\n BTS
-\n BTS
-\n BTS
-\n BTS
-\n BTS
-\n BTS
-\n BTS
-\n BTS
-\n BTS
-\n BTS
-\n BTS"
+                android:layout_marginTop="40dp"
+                android:text="Tempat Lahir : Dumai
+\nTanggal Lahir : 3 Agustus 1998
+\nZodiak             : Leo
+\nUniversitas     : UNIKOM
+\nJurusan          : Teknik Informatika
+\nSemester        : 6
+\n
+\n
+\n
+\n
+\n
+\n
+\n "
                 android:textColor="#000000"
                 android:textSize="18dp"/>
 

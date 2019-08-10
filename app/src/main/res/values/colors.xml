@@ -22,4 +22,7 @@
     <!-- Color for Background -->
     <color name="background">#DBA2A2</color>
 
+    <!-- Color for Confirm Password-->
+    <color name="confirm_pass">#FF9800</color>
+
 </resources>

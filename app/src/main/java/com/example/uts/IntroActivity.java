@@ -13,6 +13,8 @@ import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
 
+import com.example.uts.activities.LoginActivity;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -43,14 +45,14 @@ public class IntroActivity extends AppCompatActivity {
                 WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_intro);
-/**
+//BATASSS
  //When This Activity is about to Launch we need to Check if its open before or not
  if (restorePrefData()){
  Intent mainActivity = new Intent(getApplicationContext(),MainActivity.class);
  startActivity(mainActivity);
  finish();
  }
- **/
+ //BATASSS
         //Hide the Action Bar
 
 
@@ -117,21 +119,22 @@ public class IntroActivity extends AppCompatActivity {
             @Override
             public void onClick(View v) {
 
-                //Open The MainActivity
-                Intent mainActivity = new Intent(getApplicationContext(),MainActivity.class);
-                startActivity(mainActivity);
+                //Open The LoginActivity
+                Intent loginActivity = new Intent(getApplicationContext(), LoginActivity.class);
+                startActivity(loginActivity);
 
                 //Also we need the save a boolean value to storage so next time when the user run
                 //the app we could know that he is already checked the intro screen activity
                 //so use the shared preference to that proses
-
-                /**        savePrefsData();    **/
+                //BATASSS
+                savePrefsData();
+                //BATASSS
                 finish();
             }
         });
     }
-
-    /**    private boolean restorePrefData() {
+    //BATASS
+        private boolean restorePrefData() {
      SharedPreferences pref = getApplicationContext().getSharedPreferences("myPrefs",MODE_PRIVATE);
      Boolean isIntroActivityOpenedBefore = pref.getBoolean("isIntroOpened",false);
      return isIntroActivityOpenedBefore;
@@ -143,7 +146,7 @@ public class IntroActivity extends AppCompatActivity {
      editor.putBoolean("isIntroOpened",true);
      editor.commit();
      }
-     **/
+     //BATASSS
     //Show the GETSTARTED Button and Hide the Indicator and the Next Button
     private void loadLastScreen() {
         btnNext.setVisibility(View.INVISIBLE);
